@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>
+        Task 12
+    </title>
+     
+    <style>
+        .main {
+            height: 200px;
+    
+            display: grid;
+            grid-gap: 10px;
+            grid-template: repeat(5, 5fr) / repeat(5, 5fr);
+             
+            /* grid-auto-flow property used here */
+            grid-auto-flow: row dense;
+        }
+         
+        .Geeks1 {
+            
+            grid-row-start: 1;
+        }
+       .Geeks3{
+        grid-row-start: 3 ;
+       }
+         
+        .Geeks4 {
+    
+            grid-column-start: 2;
+        
+        }
+        .Geeks5{
+    
+    grid-column-start: 3;
+
+}
+.Geeks6 {
+    
+    grid-column-start:2  ;
+
+}
+.Geeks7 {
+    grid-column-end:4 ;
+    
+}
+    </style>
+</head>
+ 
+<body>
+    <div class = "main"> 
+        <div class = "Geeks1">What is lorem ipsum?</div> 
+        <div class = "Geeks2">Why do we use it?</div> 
+        <div class = "Geeks3">What is lorem ipsum</div> 
+        <div class = "Geeks4">What is lorem ipsum?</div>
+        <div class = "Geeks5">where does it come from</div>
+        <div class = "Geeks6">Why do we use it?</div>
+        <div class = "Geeks7">where does it come from</div>
+    </div> 
+</body>
+ 
+</html>     
